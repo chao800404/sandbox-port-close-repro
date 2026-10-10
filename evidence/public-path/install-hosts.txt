@@ -1,0 +1,2 @@
+lockfile generation + host npm ci, hosts contacted:
+    220 https://registry.npmjs.org

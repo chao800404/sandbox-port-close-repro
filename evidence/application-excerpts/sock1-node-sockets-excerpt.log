@@ -1,0 +1,20 @@
+# EXCERPT, not the full log. Application run 'sock1', first failure at 22:20:11.068 (peer port 37942).
+# Window 2026-10-09T22:20:09.5 .. 2026-10-09T22:20:11.2 (UTC).
+# The application's address probe is shown as /app/probe. Other paths
+# than /, /astro-live and /app/probe would be replaced by stable codes
+# (/app/mNN); none fell inside this window.
+# Fields: time, event, peer port (the sidecar's side of the connection), ...
+[sock] 2026-10-09T22:20:10.432Z req 51998 GET /app/probe conn=undefined len=-
+[sock] 2026-10-09T22:20:10.470Z res-finish 51998 204 ms=38 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-09T22:20:10.470Z res-close 51998 finished=true ms=38
+[sock] 2026-10-09T22:20:10.481Z req 51998 GET /app/probe conn=undefined len=-
+[sock] 2026-10-09T22:20:10.597Z open 37942
+[sock] 2026-10-09T22:20:10.597Z req 37942 GET /app/probe conn=undefined len=-
+[sock] 2026-10-09T22:20:10.980Z res-finish 51998 204 ms=499 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-09T22:20:10.980Z res-close 51998 finished=true ms=499
+[sock] 2026-10-09T22:20:10.981Z res-finish 37942 204 ms=384 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-09T22:20:10.981Z res-close 37942 finished=true ms=384
+[sock] 2026-10-09T22:20:11.068Z req 37942 GET /astro-live conn=undefined len=-
+[sock] 2026-10-09T22:20:11.069Z peer-FIN 37942
+[sock] 2026-10-09T22:20:11.070Z close 37942 hadError=false
+[sock] 2026-10-09T22:20:11.071Z res-close 37942 finished=false ms=3

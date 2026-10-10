@@ -1,0 +1,17 @@
+# EXCERPT, not the full log. Application run 'sock2', first failure at 22:28:06.611 (peer port 33238).
+# Window 2026-10-09T22:28:05.0 .. 2026-10-09T22:28:06.8 (UTC).
+# The application's address probe is shown as /app/probe. Other paths
+# than /, /astro-live and /app/probe would be replaced by stable codes
+# (/app/mNN); none fell inside this window.
+# Fields: time, event, peer port (the sidecar's side of the connection), ...
+[sock] 2026-10-09T22:28:05.887Z req 42928 GET /app/probe conn=undefined len=-
+[sock] 2026-10-09T22:28:05.939Z open 33238
+[sock] 2026-10-09T22:28:05.939Z req 33238 GET /app/probe conn=undefined len=-
+[sock] 2026-10-09T22:28:06.470Z res-finish 42928 204 ms=583 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-09T22:28:06.470Z res-close 42928 finished=true ms=583
+[sock] 2026-10-09T22:28:06.471Z res-finish 33238 204 ms=532 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-09T22:28:06.471Z res-close 33238 finished=true ms=532
+[sock] 2026-10-09T22:28:06.611Z req 33238 GET /astro-live conn=undefined len=-
+[sock] 2026-10-09T22:28:06.611Z peer-FIN 33238
+[sock] 2026-10-09T22:28:06.612Z close 33238 hadError=false
+[sock] 2026-10-09T22:28:06.612Z res-close 33238 finished=false ms=1

@@ -1,0 +1,61 @@
+
+  VITE v8.3.3  ready in 3041 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.17.0.4:5173/  eth0
+8:20:44 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:44 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:47 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:47 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:50 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:50 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:53 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:54 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:56 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:20:57 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:00 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:00 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:03 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:06 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:06 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:09 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:09 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:12 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:13 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:15 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:16 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:18 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:21 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:21 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:24 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:24 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:27 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry
+8:21:28 AM [vite] (inner) hmr update virtual:cloudflare/worker-entry
+[vite] hot updated: virtual:cloudflare/worker-entry

@@ -1,0 +1,184 @@
+[sock] 2026-10-10T07:30:11.510Z open 42092
+[sock] 2026-10-10T07:30:11.511Z open 
+[sock] 2026-10-10T07:30:11.511Z req 42092 GET /probe conn=keep-alive len=-
+[sock] 2026-10-10T07:30:11.515Z error  ECONNRESET
+[sock] 2026-10-10T07:30:11.516Z close  hadError=true
+[sock] 2026-10-10T07:30:11.586Z res-finish 42092 204 ms=75 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:11.588Z res-close 42092 finished=true ms=77
+[sock] 2026-10-10T07:30:14.164Z open 42108
+[sock] 2026-10-10T07:30:14.165Z req 42108 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:14.226Z res-finish 42108 204 ms=61 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:14.226Z res-close 42108 finished=true ms=61
+[sock] 2026-10-10T07:30:14.282Z req 42108 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:14.283Z peer-FIN 42108
+[sock] 2026-10-10T07:30:14.284Z close 42108 hadError=false
+[sock] 2026-10-10T07:30:14.284Z res-close 42108 finished=false ms=2
+[sock] 2026-10-10T07:30:14.409Z open 42116
+[sock] 2026-10-10T07:30:14.410Z req 42116 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:14.453Z res-finish 42116 204 ms=43 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:14.453Z res-close 42116 finished=true ms=43
+[sock] 2026-10-10T07:30:14.466Z req 42116 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:14.468Z peer-FIN 42116
+[sock] 2026-10-10T07:30:14.469Z close 42116 hadError=false
+[sock] 2026-10-10T07:30:14.470Z res-close 42116 finished=false ms=4
+[sock] 2026-10-10T07:30:17.117Z open 42124
+[sock] 2026-10-10T07:30:17.121Z req 42124 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:17.124Z open 42128
+[sock] 2026-10-10T07:30:17.125Z req 42128 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:17.248Z res-finish 42128 204 ms=123 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:17.248Z res-close 42128 finished=true ms=123
+[sock] 2026-10-10T07:30:17.255Z res-finish 42124 204 ms=134 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:17.255Z res-close 42124 finished=true ms=134
+[sock] 2026-10-10T07:30:17.286Z req 42124 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:17.289Z peer-FIN 42124
+[sock] 2026-10-10T07:30:17.290Z close 42124 hadError=false
+[sock] 2026-10-10T07:30:17.290Z res-close 42124 finished=false ms=4
+[sock] 2026-10-10T07:30:17.587Z close 42092 hadError=false
+[sock] 2026-10-10T07:30:19.849Z req 42128 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:19.851Z peer-FIN 42128
+[sock] 2026-10-10T07:30:19.853Z close 42128 hadError=false
+[sock] 2026-10-10T07:30:19.853Z res-close 42128 finished=false ms=4
+[sock] 2026-10-10T07:30:19.965Z open 42140
+[sock] 2026-10-10T07:30:19.965Z req 42140 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:20.006Z res-finish 42140 204 ms=41 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:20.006Z res-close 42140 finished=true ms=41
+[sock] 2026-10-10T07:30:20.147Z req 42140 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:20.148Z peer-FIN 42140
+[sock] 2026-10-10T07:30:20.148Z close 42140 hadError=false
+[sock] 2026-10-10T07:30:20.149Z res-close 42140 finished=false ms=2
+[sock] 2026-10-10T07:30:20.274Z open 42154
+[sock] 2026-10-10T07:30:20.275Z req 42154 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:20.318Z res-finish 42154 204 ms=43 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:20.318Z res-close 42154 finished=true ms=43
+[sock] 2026-10-10T07:30:20.332Z req 42154 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:20.334Z peer-FIN 42154
+[sock] 2026-10-10T07:30:20.338Z close 42154 hadError=false
+[sock] 2026-10-10T07:30:20.339Z res-close 42154 finished=false ms=7
+[sock] 2026-10-10T07:30:22.903Z open 39284
+[sock] 2026-10-10T07:30:22.904Z req 39284 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:22.949Z res-finish 39284 204 ms=45 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:22.949Z res-close 39284 finished=true ms=45
+[sock] 2026-10-10T07:30:23.395Z req 39284 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:23.400Z peer-FIN 39284
+[sock] 2026-10-10T07:30:23.400Z close 39284 hadError=false
+[sock] 2026-10-10T07:30:23.401Z res-close 39284 finished=false ms=6
+[sock] 2026-10-10T07:30:23.510Z open 39292
+[sock] 2026-10-10T07:30:23.510Z req 39292 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:23.541Z res-finish 39292 204 ms=31 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:23.541Z res-close 39292 finished=true ms=31
+[sock] 2026-10-10T07:30:23.557Z req 39292 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:23.559Z peer-FIN 39292
+[sock] 2026-10-10T07:30:23.561Z close 39292 hadError=false
+[sock] 2026-10-10T07:30:23.561Z res-close 39292 finished=false ms=4
+[sock] 2026-10-10T07:30:26.118Z open 39298
+[sock] 2026-10-10T07:30:26.119Z req 39298 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:26.159Z res-finish 39298 204 ms=40 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:26.159Z res-close 39298 finished=true ms=40
+[sock] 2026-10-10T07:30:26.274Z req 39298 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:26.275Z peer-FIN 39298
+[sock] 2026-10-10T07:30:26.276Z close 39298 hadError=false
+[sock] 2026-10-10T07:30:26.278Z res-close 39298 finished=false ms=4
+[sock] 2026-10-10T07:30:26.399Z open 39302
+[sock] 2026-10-10T07:30:26.401Z req 39302 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:26.445Z res-finish 39302 204 ms=44 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:26.445Z res-close 39302 finished=true ms=44
+[sock] 2026-10-10T07:30:27.124Z req 39302 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:27.125Z peer-FIN 39302
+[sock] 2026-10-10T07:30:27.125Z close 39302 hadError=false
+[sock] 2026-10-10T07:30:27.125Z res-close 39302 finished=false ms=1
+[sock] 2026-10-10T07:30:27.246Z open 39308
+[sock] 2026-10-10T07:30:27.247Z req 39308 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:27.292Z res-finish 39308 204 ms=45 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:27.292Z res-close 39308 finished=true ms=45
+[sock] 2026-10-10T07:30:27.308Z req 39308 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:27.310Z peer-FIN 39308
+[sock] 2026-10-10T07:30:27.311Z close 39308 hadError=false
+[sock] 2026-10-10T07:30:27.311Z res-close 39308 finished=false ms=3
+[sock] 2026-10-10T07:30:29.880Z open 39312
+[sock] 2026-10-10T07:30:29.881Z req 39312 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:29.942Z res-finish 39312 204 ms=61 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:29.942Z res-close 39312 finished=true ms=61
+[sock] 2026-10-10T07:30:29.997Z req 39312 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:29.997Z peer-FIN 39312
+[sock] 2026-10-10T07:30:29.999Z close 39312 hadError=false
+[sock] 2026-10-10T07:30:29.999Z res-close 39312 finished=false ms=2
+[sock] 2026-10-10T07:30:30.114Z open 39320
+[sock] 2026-10-10T07:30:30.114Z req 39320 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:30.154Z res-finish 39320 204 ms=40 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:30.154Z res-close 39320 finished=true ms=40
+[sock] 2026-10-10T07:30:30.171Z req 39320 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:30.173Z peer-FIN 39320
+[sock] 2026-10-10T07:30:30.174Z close 39320 hadError=false
+[sock] 2026-10-10T07:30:30.174Z res-close 39320 finished=false ms=3
+[sock] 2026-10-10T07:30:32.764Z open 48898
+[sock] 2026-10-10T07:30:32.776Z req 48898 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:32.781Z open 48914
+[sock] 2026-10-10T07:30:32.782Z req 48914 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:32.881Z res-finish 48898 204 ms=105 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:32.881Z res-close 48898 finished=true ms=105
+[sock] 2026-10-10T07:30:32.902Z res-finish 48914 204 ms=120 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:32.902Z res-close 48914 finished=true ms=120
+[sock] 2026-10-10T07:30:32.921Z req 48914 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:32.924Z peer-FIN 48914
+[sock] 2026-10-10T07:30:32.925Z close 48914 hadError=false
+[sock] 2026-10-10T07:30:32.925Z res-close 48914 finished=false ms=4
+[sock] 2026-10-10T07:30:35.486Z req 48898 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:35.487Z peer-FIN 48898
+[sock] 2026-10-10T07:30:35.488Z close 48898 hadError=false
+[sock] 2026-10-10T07:30:35.488Z res-close 48898 finished=false ms=2
+[sock] 2026-10-10T07:30:35.603Z open 48928
+[sock] 2026-10-10T07:30:35.604Z req 48928 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:35.656Z res-finish 48928 204 ms=52 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:35.656Z res-close 48928 finished=true ms=52
+[sock] 2026-10-10T07:30:35.795Z req 48928 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:35.796Z peer-FIN 48928
+[sock] 2026-10-10T07:30:35.797Z close 48928 hadError=false
+[sock] 2026-10-10T07:30:35.797Z res-close 48928 finished=false ms=2
+[sock] 2026-10-10T07:30:35.926Z open 48930
+[sock] 2026-10-10T07:30:35.927Z req 48930 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:35.970Z res-finish 48930 204 ms=43 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:35.970Z res-close 48930 finished=true ms=43
+[sock] 2026-10-10T07:30:35.987Z req 48930 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:35.989Z peer-FIN 48930
+[sock] 2026-10-10T07:30:35.990Z close 48930 hadError=false
+[sock] 2026-10-10T07:30:35.990Z res-close 48930 finished=false ms=3
+[sock] 2026-10-10T07:30:38.558Z open 48940
+[sock] 2026-10-10T07:30:38.558Z req 48940 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:38.601Z res-finish 48940 204 ms=43 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:38.601Z res-close 48940 finished=true ms=43
+[sock] 2026-10-10T07:30:38.719Z req 48940 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:38.720Z peer-FIN 48940
+[sock] 2026-10-10T07:30:38.721Z close 48940 hadError=false
+[sock] 2026-10-10T07:30:38.721Z res-close 48940 finished=false ms=2
+[sock] 2026-10-10T07:30:38.844Z open 48948
+[sock] 2026-10-10T07:30:38.845Z req 48948 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:38.892Z res-finish 48948 204 ms=47 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:38.892Z res-close 48948 finished=true ms=47
+[sock] 2026-10-10T07:30:39.054Z req 48948 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:39.057Z peer-FIN 48948
+[sock] 2026-10-10T07:30:39.059Z close 48948 hadError=false
+[sock] 2026-10-10T07:30:39.059Z res-close 48948 finished=false ms=5
+[sock] 2026-10-10T07:30:39.175Z open 48950
+[sock] 2026-10-10T07:30:39.176Z req 48950 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:39.226Z res-finish 48950 204 ms=50 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:39.226Z res-close 48950 finished=true ms=50
+[sock] 2026-10-10T07:30:39.244Z req 48950 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:39.245Z peer-FIN 48950
+[sock] 2026-10-10T07:30:39.246Z close 48950 hadError=false
+[sock] 2026-10-10T07:30:39.246Z res-close 48950 finished=false ms=2
+[sock] 2026-10-10T07:30:41.813Z open 48678
+[sock] 2026-10-10T07:30:41.814Z req 48678 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:41.874Z res-finish 48678 204 ms=60 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:41.875Z res-close 48678 finished=true ms=61
+[sock] 2026-10-10T07:30:42.823Z req 48678 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:42.824Z peer-FIN 48678
+[sock] 2026-10-10T07:30:42.824Z close 48678 hadError=false
+[sock] 2026-10-10T07:30:42.825Z res-close 48678 finished=false ms=2
+[sock] 2026-10-10T07:30:42.940Z open 48684
+[sock] 2026-10-10T07:30:42.941Z req 48684 GET /probe conn=undefined len=-
+[sock] 2026-10-10T07:30:42.990Z res-finish 48684 204 ms=49 keepAlive=true te=undefined cl=undefined
+[sock] 2026-10-10T07:30:42.990Z res-close 48684 finished=true ms=49
+[sock] 2026-10-10T07:30:43.009Z req 48684 GET / conn=undefined len=-
+[sock] 2026-10-10T07:30:43.011Z peer-FIN 48684
+[sock] 2026-10-10T07:30:43.011Z close 48684 hadError=false
+[sock] 2026-10-10T07:30:43.011Z res-close 48684 finished=false ms=2

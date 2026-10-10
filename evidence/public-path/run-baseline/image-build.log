@@ -1,0 +1,302 @@
+⎔ Preparing container image(s)...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 421B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/cloudflare/sandbox:0.12.7@sha256:6d741713aef266e8ae0831a5709c6f2d7b77b4952ac79b549f4f4e380af86fbe
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 80B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/cloudflare/sandbox:0.12.7@sha256:6d741713aef266e8ae0831a5709c6f2d7b77b4952ac79b549f4f4e380af86fbe
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 121B done
+#5 DONE 0.0s
+
+#6 [2/4] WORKDIR /opt/repro
+#6 CACHED
+
+#7 [3/4] COPY container/package.json container/package-lock.json ./
+#7 CACHED
+
+#8 [4/4] RUN npm ci --no-audit --no-fund
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 writing image sha256:b9e34d34685c1d66e093c1340784122ad9413b5f62f1f49398724ad653325336 done
+#9 naming to docker.io/cloudflare-dev/reprosandbox:9d67a8d5 done
+#9 DONE 0.0s
+docker.io/cloudflare/proxy-everything@sha256:0ef6716c52430096900b150d84a3302057d6cd2319dae7987128c85d0733e3c8: Pulling from cloudflare/proxy-everything
+Digest: sha256:0ef6716c52430096900b150d84a3302057d6cd2319dae7987128c85d0733e3c8
+Status: Image is up to date for cloudflare/proxy-everything@sha256:0ef6716c52430096900b150d84a3302057d6cd2319dae7987128c85d0733e3c8
+docker.io/cloudflare/proxy-everything:3cb1195@sha256:0ef6716c52430096900b150d84a3302057d6cd2319dae7987128c85d0733e3c8
+⎔ Container image(s) ready
+⎔ Starting local server...
+[wrangler:info] Ready on http://localhost:8787
+{
+  level: 'info',
+  message: 'Using http transport',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  timestamp: '2026-10-10T08:04:23.766Z'
+}
+[wrangler:info] GET /nothing 404 Not Found (4168ms)
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNOSENTRY SQLite alarm handler canceled with requestScheduledAlarm.; scheduledTime = 1791619136.293s; localAlarmState.orDefault(kj::UNIX_EPOCH) = 1791619464.776s; actorId = ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCould not bind egress listener to gateway address, falling back to loopback; listenAddress = 172.17.0.1; e = rust/cxx/kj-rs-io/ffi.rs:197: failed: bind(): Cannot assign requested address (os error 99)[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCreating a container with explicitly configured Docker privileges. Capabilities, devices, and security options may grant host-level access.; containerName = workerd-sandbox-port-close-repro-ReproSandbox-ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738; privileges.capabilities = SYS_ADMIN; devices = { pathOnHost = /dev/fuse, pathInContainer = /dev/fuse, cgroupPermissions = rwm }; privileges.securityOpt = apparmor:unconfined[0m
+
+
+{
+  level: 'info',
+  message: 'sandbox.exec success ln -sfn /opt/repro/node_modules /workspace/node_modules (29ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'ln -sfn /opt/repro/node_modules /workspace/node_modules',
+  exitCode: 0,
+  durationMs: 29,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:04:25.243Z'
+}
+{
+  level: 'info',
+  message: 'port.expose success 5173 (6ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'port.expose',
+  outcome: 'success',
+  port: 5173,
+  durationMs: 6,
+  name: undefined,
+  hostname: 'localhost:8787',
+  timestamp: '2026-10-10T08:04:29.402Z'
+}
+[wrangler:info] POST /setup 200 OK (5514ms)
+[wrangler:info] GET / 200 OK (75ms)
+[wrangler:info] GET / 200 OK (66ms)
+[wrangler:info] GET / 200 OK (81ms)
+[wrangler:info] GET / 200 OK (64ms)
+[wrangler:info] GET / 200 OK (51ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (21ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 21,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:04:39.736Z'
+}
+[wrangler:info] POST /write 200 OK (39ms)
+[wrangler:info] GET /probe 204 No Content (64ms)
+[wrangler:info] GET /probe 204 No Content (53ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (15ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 15,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:04:39.987Z'
+}
+[wrangler:info] POST /write 200 OK (28ms)
+[wrangler:info] GET /probe 204 No Content (81ms)
+[wrangler:info] GET / 200 OK (48ms)
+[wrangler:info] GET / 200 OK (60ms)
+[wrangler:info] GET / 200 OK (67ms)
+[wrangler:info] GET / 200 OK (83ms)
+[wrangler:info] GET / 200 OK (75ms)
+[wrangler:info] GET / 200 OK (61ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (30ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 30,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:04:50.468Z'
+}
+[wrangler:info] POST /write 200 OK (49ms)
+[wrangler:info] GET /probe 204 No Content (76ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (20ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 20,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:04:50.591Z'
+}
+[wrangler:info] POST /write 200 OK (34ms)
+[wrangler:info] GET /probe 204 No Content (82ms)
+[wrangler:info] GET / 200 OK (57ms)
+[wrangler:info] GET / 200 OK (59ms)
+[wrangler:info] GET / 200 OK (67ms)
+[wrangler:info] GET / 200 OK (87ms)
+[wrangler:info] GET / 200 OK (60ms)
+[wrangler:info] GET / 200 OK (70ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (21ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 21,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:05:01.061Z'
+}
+[wrangler:info] POST /write 200 OK (41ms)
+[wrangler:info] GET /probe 204 No Content (62ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (19ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 19,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:05:01.166Z'
+}
+[wrangler:info] POST /write 200 OK (37ms)
+[wrangler:info] GET /probe 204 No Content (51ms)
+[wrangler:info] GET / 200 OK (50ms)
+[wrangler:info] GET / 200 OK (76ms)
+[wrangler:info] GET / 200 OK (60ms)
+[wrangler:info] GET / 200 OK (82ms)
+[wrangler:info] GET / 200 OK (52ms)
+[wrangler:info] GET / 200 OK (63ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (22ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 22,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:05:11.600Z'
+}
+[wrangler:info] POST /write 200 OK (43ms)
+[wrangler:info] GET /probe 204 No Content (67ms)
+[wrangler:info] GET /probe 204 No Content (55ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success mv /workspace/.data.tmp /workspace/data.json (20ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'mv /workspace/.data.tmp /workspace/data.json',
+  exitCode: 0,
+  durationMs: 20,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:05:11.861Z'
+}
+[wrangler:info] POST /write 200 OK (36ms)
+[wrangler:info] GET /probe 204 No Content (122ms)
+[wrangler:info] GET / 200 OK (65ms)
+{
+  level: 'info',
+  message: 'sandbox.exec success tail -c 20000 /tmp/vite.log (22ms)',
+  component: 'sandbox-do',
+  sandboxId: 'ed5536b6172acc9d372d9117816e2d43d651a147b8b4780ae60a240013e1d738',
+  traceId: 'tr_021d2db87d954ef5',
+  serviceVersion: undefined,
+  instanceId: undefined,
+  event: 'sandbox.exec',
+  outcome: 'success',
+  command: 'tail -c 20000 /tmp/vite.log',
+  exitCode: 0,
+  durationMs: 22,
+  sessionId: 'sandbox-repro',
+  origin: 'user',
+  errorMessage: undefined,
+  timestamp: '2026-10-10T08:05:12.108Z'
+}
+[wrangler:info] GET /vite-log 200 OK (30ms)

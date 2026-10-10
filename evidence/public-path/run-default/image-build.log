@@ -1,0 +1,32 @@
+⎔ Preparing container image(s)...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 421B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/cloudflare/sandbox:0.12.7@sha256:6d741713aef266e8ae0831a5709c6f2d7b77b4952ac79b549f4f4e380af86fbe
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 80B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/cloudflare/sandbox:0.12.7@sha256:6d741713aef266e8ae0831a5709c6f2d7b77b4952ac79b549f4f4e380af86fbe
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 73.16kB 0.0s done
+#5 DONE 0.1s
+
+#6 [2/4] WORKDIR /opt/repro
+#6 DONE 0.1s
+
+#7 [3/4] COPY container/package.json container/package-lock.json ./
+#7 DONE 0.1s
+
+#8 [4/4] RUN npm ci --no-audit --no-fund
+#8 17.04 
+#8 17.04 added 58 packages in 16s
+#8 17.04 npm notice
+#8 17.04 npm notice New major version of npm available! 10.9.8 -> 12.2.0

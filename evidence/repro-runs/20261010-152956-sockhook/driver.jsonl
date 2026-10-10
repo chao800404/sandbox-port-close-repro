@@ -1,0 +1,11 @@
+{"event":"setup","previewHost":"5173-repro-<token>.localhost:8787"}
+{"round":0,"condition":"seq","at":"2026-10-10T07:30:14.456Z","first":{"own":1,"read":1,"ms":119,"probeErrors":0},"second":{"own":2,"read":2,"ms":227,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"0","at":"2026-10-10T07:30:17.263Z","first":{"own":3,"read":4,"ms":276,"probeErrors":0},"second":{"own":4,"read":4,"ms":285,"probeErrors":0},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"300","at":"2026-10-10T07:30:20.321Z","first":{"own":5,"read":5,"ms":211,"probeErrors":1},"second":{"own":6,"read":6,"ms":223,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"500","at":"2026-10-10T07:30:23.546Z","first":{"own":7,"read":7,"ms":116,"probeErrors":0},"second":{"own":8,"read":8,"ms":207,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"1000","at":"2026-10-10T07:30:27.295Z","first":{"own":9,"read":9,"ms":382,"probeErrors":1},"second":{"own":10,"read":10,"ms":227,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"seq","at":"2026-10-10T07:30:30.157Z","first":{"own":11,"read":11,"ms":122,"probeErrors":0},"second":{"own":12,"read":12,"ms":212,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"0","at":"2026-10-10T07:30:32.907Z","first":{"own":13,"read":14,"ms":193,"probeErrors":0},"second":{"own":14,"read":14,"ms":214,"probeErrors":0},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"300","at":"2026-10-10T07:30:35.973Z","first":{"own":15,"read":15,"ms":224,"probeErrors":1},"second":{"own":16,"read":16,"ms":238,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"500","at":"2026-10-10T07:30:39.231Z","first":{"own":17,"read":17,"ms":395,"probeErrors":1},"second":{"own":18,"read":18,"ms":231,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"1000","at":"2026-10-10T07:30:42.993Z","first":{"own":19,"read":19,"ms":123,"probeErrors":0},"second":{"own":20,"read":20,"ms":236,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}

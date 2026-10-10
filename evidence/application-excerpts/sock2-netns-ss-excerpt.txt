@@ -1,0 +1,12 @@
+# EXCERPT, not the full log. Application run 'sock2', the container's network
+# namespace sampled about every 50 ms with `ss -tanpo` from inside the
+# proxy-everything container. One line per change. Columns: uptime, wall clock
+# (UTC, estimated from one uptime/wall pair; about 0.1 s early versus the Node
+# log), then DOWN<-port = connection from the host to the sidecar's listener
+# (39001), UP:port = sidecar to 127.0.0.1:5173, with fd and recv/send queues.
+# Failure at 22:28:06.611 (Node clock) on upstream 33238.
+68890.04 22:28:02.980 DOWN<-40050 ESTAB fd21 q0/0 | DOWN<-58816 ESTAB fd51 q0/0 | UP:42928 ESTAB fd53 q0/0
+68892.91 22:28:05.850 DOWN<-40050 ESTAB fd21 q0/0 | DOWN<-47162 ESTAB fd27 q0/0 | DOWN<-58816 ESTAB fd51 q0/0 | UP:33238 ESTAB fd28 q0/0 | UP:42928 ESTAB fd53 q0/0
+68893.41 22:28:06.350 DOWN<-40050 ESTAB fd21 q0/0 | DOWN<-47162 ESTAB fd27 q0/295 | DOWN<-58816 ESTAB fd51 q0/0 | UP:33238 ESTAB fd28 q0/0 | UP:42928 ESTAB fd53 q0/0
+68893.47 22:28:06.410 DOWN<-40050 ESTAB fd21 q0/0 | DOWN<-47162 ESTAB fd27 q0/0 | DOWN<-58816 ESTAB fd51 q0/0 | UP:33238 ESTAB fd28 q0/0 | UP:42928 ESTAB fd53 q0/0
+68893.58 22:28:06.520 DOWN<-40050 ESTAB fd21 q0/0 | DOWN<-58816 ESTAB fd51 q0/0 | UP:42928 ESTAB fd53 q0/0

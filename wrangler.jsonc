@@ -1,0 +1,21 @@
+{
+  "name": "sandbox-port-close-repro",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "containers": [
+    {
+      "class_name": "ReproSandbox",
+      // ./Dockerfile installs the container toolchain from npm.
+      // ./Dockerfile.local copies the same versions from an image already on
+      // this machine (used for the runs in REPORT.md, without downloading).
+      "image": "./Dockerfile",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "Sandbox", "class_name": "ReproSandbox" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ReproSandbox"] }]
+}

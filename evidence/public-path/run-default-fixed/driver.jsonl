@@ -1,0 +1,16 @@
+{"event":"setup","previewHost":"5173-repro-<token>.localhost:8787"}
+{"round":0,"condition":"seq","at":"2026-10-10T08:20:44.847Z","first":{"own":1,"read":1,"ms":107,"probeErrors":0},"second":{"own":2,"read":2,"ms":191,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"0","at":"2026-10-10T08:20:47.524Z","first":{"own":3,"read":4,"ms":107,"probeErrors":0},"second":{"own":4,"read":4,"ms":157,"probeErrors":0},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"300","at":"2026-10-10T08:20:50.894Z","first":{"own":5,"read":5,"ms":423,"probeErrors":1},"second":{"own":6,"read":6,"ms":551,"probeErrors":2},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"500","at":"2026-10-10T08:20:54.129Z","first":{"own":7,"read":7,"ms":176,"probeErrors":0},"second":{"own":8,"read":8,"ms":208,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":0,"condition":"1000","at":"2026-10-10T08:20:57.850Z","first":{"own":9,"read":9,"ms":99,"probeErrors":0},"second":{"own":10,"read":10,"ms":200,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"seq","at":"2026-10-10T08:21:00.710Z","first":{"own":11,"read":11,"ms":108,"probeErrors":0},"second":{"own":12,"read":12,"ms":235,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"0","at":"2026-10-10T08:21:03.384Z","first":{"own":13,"read":14,"ms":123,"probeErrors":0},"second":{"own":14,"read":14,"ms":151,"probeErrors":0},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"300","at":"2026-10-10T08:21:06.401Z","first":{"own":15,"read":15,"ms":207,"probeErrors":1},"second":{"own":16,"read":16,"ms":202,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"500","at":"2026-10-10T08:21:09.621Z","first":{"own":17,"read":17,"ms":351,"probeErrors":1},"second":{"own":18,"read":18,"ms":197,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":1,"condition":"1000","at":"2026-10-10T08:21:13.351Z","first":{"own":19,"read":19,"ms":346,"probeErrors":1},"second":{"own":20,"read":20,"ms":213,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":2,"condition":"seq","at":"2026-10-10T08:21:16.163Z","first":{"own":21,"read":21,"ms":90,"probeErrors":0},"second":{"own":22,"read":22,"ms":202,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":2,"condition":"0","at":"2026-10-10T08:21:18.810Z","first":{"own":23,"read":24,"ms":106,"probeErrors":0},"second":{"own":24,"read":24,"ms":127,"probeErrors":0},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":2,"condition":"300","at":"2026-10-10T08:21:21.812Z","first":{"own":25,"read":25,"ms":181,"probeErrors":1},"second":{"own":26,"read":26,"ms":184,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":2,"condition":"500","at":"2026-10-10T08:21:25.030Z","first":{"own":27,"read":27,"ms":86,"probeErrors":0},"second":{"own":28,"read":28,"ms":189,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}
+{"round":2,"condition":"1000","at":"2026-10-10T08:21:28.743Z","first":{"own":29,"read":29,"ms":348,"probeErrors":1},"second":{"own":30,"read":30,"ms":196,"probeErrors":1},"pageStatus":500,"pageBody":"Proxy routing error"}

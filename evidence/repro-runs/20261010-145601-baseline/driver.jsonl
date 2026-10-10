@@ -1,0 +1,17 @@
+{"event":"setup","previewHost":"5173-repro-<token>.localhost:8787"}
+{"round":0,"condition":"none","at":"2026-10-10T06:56:37.380Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 0</p>"}
+{"round":0,"condition":"pair","at":"2026-10-10T06:56:40.532Z","first":[200,200],"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 0</p>"}
+{"round":0,"condition":"none","at":"2026-10-10T06:56:43.223Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 0</p>"}
+{"round":0,"condition":"seq","at":"2026-10-10T06:56:46.437Z","first":{"own":1,"read":1,"ms":270,"probeErrors":0},"second":{"own":2,"read":2,"ms":211,"probeErrors":0},"pageStatus":200,"pageBody":"<!doctype html><p>ticket 2</p>"}
+{"round":1,"condition":"none","at":"2026-10-10T06:56:49.050Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 2</p>"}
+{"round":1,"condition":"pair","at":"2026-10-10T06:56:51.851Z","first":[200,200],"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 2</p>"}
+{"round":1,"condition":"none","at":"2026-10-10T06:56:54.463Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 2</p>"}
+{"round":1,"condition":"seq","at":"2026-10-10T06:56:57.512Z","first":{"own":3,"read":3,"ms":205,"probeErrors":0},"second":{"own":4,"read":4,"ms":203,"probeErrors":0},"pageStatus":200,"pageBody":"<!doctype html><p>ticket 4</p>"}
+{"round":2,"condition":"none","at":"2026-10-10T06:57:00.144Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 4</p>"}
+{"round":2,"condition":"pair","at":"2026-10-10T06:57:02.954Z","first":[200,200],"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 4</p>"}
+{"round":2,"condition":"none","at":"2026-10-10T06:57:05.572Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 4</p>"}
+{"round":2,"condition":"seq","at":"2026-10-10T06:57:08.640Z","first":{"own":5,"read":5,"ms":223,"probeErrors":0},"second":{"own":6,"read":6,"ms":225,"probeErrors":0},"pageStatus":200,"pageBody":"<!doctype html><p>ticket 6</p>"}
+{"round":3,"condition":"none","at":"2026-10-10T06:57:11.256Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 6</p>"}
+{"round":3,"condition":"pair","at":"2026-10-10T06:57:14.108Z","first":[200,200],"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 6</p>"}
+{"round":3,"condition":"none","at":"2026-10-10T06:57:16.735Z","first":null,"second":null,"pageStatus":200,"pageBody":"<!doctype html><p>ticket 6</p>"}
+{"round":3,"condition":"seq","at":"2026-10-10T06:57:19.800Z","first":{"own":7,"read":7,"ms":205,"probeErrors":0},"second":{"own":8,"read":8,"ms":223,"probeErrors":0},"pageStatus":200,"pageBody":"<!doctype html><p>ticket 8</p>"}
